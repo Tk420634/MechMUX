@@ -2,6 +2,29 @@
  * Header file for weapons, includes specific featured lists.
  */
 
+/*
+    {"IS.MediumLaser", 
+	VRT_IS_ML, TBEAM, 
+	3 Heat, 5 Damage, 
+	0 Min Range, 
+	3 Short Range, 
+	6 Mid Range, 
+	9 long range, 
+	0 Min water,
+	2 short water, 
+	4 mid water,
+	6 long water, 
+	1 crit size,
+        0 unused, 
+		100 Weight in 1/100th ton, 
+		-1 ammo explosion dam, NONE, 
+		46 weapon value, 
+		40000 weapon cost,
+		0 ammo bv,
+		0 ammo cost},
+~Deduced by Fenny :3
+*/
+
 #include "weapons.vrt.h"
 
 struct weapon_struct MechWeapons[] = {
@@ -486,6 +509,42 @@ struct weapon_struct MechWeapons[] = {
     -1, 1, 2, 100, -1, NONE, 12},
     {"IS.InfantryLRM", VRT_IS_ILRM, TMISSILE, 1, 1, 4, 6, 9, 12, 0, -1, -1,
     -1, 1, 1, 100, -1, IDF, 22},
+	
+	/* Zoidian Specialized Weapons ~Fenny */
+    {"ZD.Light-Claw", VRT_ZD_ML, TBEAM, 0, 6, 0, 1, 1, 1, 0, 1, 1, 1, 1,
+    0, 100, -1, NONE, 6, 100000, 0, 0},
+   {"ZD.Medium-Claw", VRT_ZD_ML, TBEAM, 0, 8, 0, 1, 1, 1, 0, 1, 1, 1, 1,
+    0, 100, -1, NONE, 7, 100000, 0, 0},	
+   {"ZD.Heavy-Claw", VRT_ZD_ML, TBEAM, 0, 10, 0, 1, 1, 1, 0, 1, 1, 1, 1,
+    0, 100, -1, NONE, 9, 100000, 0, 0},
+   {"ZD.Ultra-Claw", VRT_ZD_ML, TBEAM, 0, 12, 0, 1, 1, 1, 0, 1, 1, 1, 1,
+    0, 100, -1, NONE, 11, 100000, 0, 0},
+   {"ZD.Light-Bite", VRT_ZD_ML, TBEAM, 0, 8, 0, 1, 1, 1, 0, 1, 1, 1, 1,
+    0, 100, -1, NONE, 7, 100000, 0, 0},
+   {"ZD.Medium-Bite", VRT_ZD_ML, TBEAM, 0, 10, 0, 1, 1, 1, 0, 1, 1, 1, 1,
+    0, 100, -1, NONE, 9, 100000, 0, 0},
+   {"ZD.Heavy-Bite", VRT_ZD_ML, TBEAM, 0, 15, 0, 1, 1, 1, 0, 1, 1, 1, 1,
+    0, 100, -1, NONE, 14, 100000, 0, 0},
+   {"ZD.Ultra-Bite", VRT_ZD_ML, TBEAM, 0, 20, 0, 1, 1, 1, 0, 1, 1, 1, 1,
+    0, 100, -1, NONE, 18, 100000, 0, 0},
+   {"ZD.Blade-Attack", VRT_ZD_ML, TBEAM, 0, 12, 0, 1, 1, 1, 0, 1, 1, 1, 1,
+    0, 100, -1, NONE, 11, 100000, 0, 0},
+   {"ZD.Horn-Attack", VRT_ZD_ML, TBEAM, 0, 10, 0, 1, 1, 1, 0, 1, 1, 1, 1,
+    0, 100, -1, NONE, 9, 100000, 0, 0},
+   {"ZD.Tusks-Attack", VRT_ZD_ML, TBEAM, 0, 12, 0, 1, 1, 1, 0, 1, 1, 1, 1,
+    0, 100, -1, NONE, 11, 100000, 0, 0},
+    {"ZD.ShockCannon", VRT_ZD_ML, TBEAM, 3, 8, 0, 2, 4, 6, 0, 1, 2, 3, 1,
+    0, 100, -1, NONE, 44, 100000, 0, 0},
+     {"ZD.Assorted-Small-Melee", VRT_ZD_ML, TBEAM, 0, 6, 0, 1, 1, 1, 0, 1, 1, 1, 1,
+    0, 100, -1, NONE, 6, 100000, 0, 0},
+     {"ZD.Assorted-Medium-Melee", VRT_ZD_ML, TBEAM, 0, 10, 0, 1, 1, 1, 0, 1, 1, 1, 1,
+    0, 100, -1, NONE, 9, 100000, 0, 0},
+     {"ZD.Assorted-Heavy-Melee", VRT_ZD_ML, TBEAM, 0, 14, 0, 1, 1, 1, 0, 1, 1, 1, 1,
+    0, 100, -1, NONE, 13, 100000, 0, 0},
+     {"ZD.Assorted-Ultra-Meleee", VRT_ZD_ML, TBEAM, 0, 19, 0, 1, 1, 1, 0, 1, 1, 1, 1,
+    0, 100, -1, NONE, 17, 100000, 0, 0},
+     {"ZD.CPG", VRT_ZD_CPG, TAMMO, 20, 50, 7, 8, 16, 24, 3, 4, 10, 14, 1,
+    1, 100, 1, NONE, 644, 400000, 0, 0},
 
     {NULL, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, NONE, 1}
 
