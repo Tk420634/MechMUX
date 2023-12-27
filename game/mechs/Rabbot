@@ -1,0 +1,75 @@
+Name             { Rabbot }
+Reference        { Rabbot }
+Type             { Mech }
+Move_Type        { Quad }
+Tons             { 35 }
+Comment          { Saved by: Fenin#2532 at Fri May 1st, while wishing he was still asleep 2020 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 816 }
+Max_Speed        { 64.00 }
+Jump_Speed       { 44.50 }
+Specials         { Masc }
+Front_Left_Leg
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+	CRIT_5			{ JumpJet - - }
+Front_Right_Leg
+  Armor            { 12 }
+  Internals        { 6 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+	CRIT_5			{ JumpJet - - }
+Left_Torso
+ Armor             { 12 }
+  Internals        { 8 }
+  Rear             { 4 }
+    CRIT_1-2		 { HeatSink - - }
+	CRIT_3 			{ CL.ERSmallLaser - - }
+Right_Torso
+ Armor             { 12 }
+  Internals        { 8 }
+  Rear             { 4 }
+    CRIT_1-2		 { HeatSink - - }
+	CRIT_3 			{ CL.ERSmallLaser - - }
+	CRIT_4			{ Masc - - }
+Center_Torso
+  Armor            { 16 }
+  Internals        { 11 }
+  Rear             { 6 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+	CRIT_11			{ CL.ERSmallLaser - - }
+	CRIT_12			{ CL.ERSmallLaser - - }
+Rear_Left_Leg
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+	CRIT_5			{ JumpJet - - }
+Rear_Right_Leg
+  Armor            { 16 }
+  Internals        { 8 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+	CRIT_5			{ JumpJet - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+	CRIT_4			{ HeatSink - - }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

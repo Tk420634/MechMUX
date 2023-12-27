@@ -1,0 +1,81 @@
+Name             { Cannon Tortoise BC }
+Reference        { Cannon_Tortoise_BC }
+Type             { Mech }
+Move_Type        { Quad }
+Tons             { 30 }
+Comment          { Saved by: Fenin#2532 at Sat April 26th, while being attacked by a toddler 2020 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 797 }
+Heat_Sinks       { 13 }
+Max_Speed        { 33.00 }
+Front_Left_Leg
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+	CRIT_5 		 { EndoSteel - - }
+Front_Right_Leg
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5			  { HeatSink - - }
+	CRIT_6		 { EndoSteel - - }
+Left_Torso
+ Armor             { 10 }
+  Internals        { 7 }
+  Rear             { 4 }
+	CRIT_1		{ HeatSink - - }
+	CRIT_2 	 	{ CL.ERSmallLaser - - }
+	CRIT_3		 { EndoSteel - - }
+	CRIT_4		 { EndoSteel - - }
+Right_Torso
+ Armor             { 10 }
+  Internals        { 7 }
+  Rear             { 4 }
+    CRIT_1		{ HeatSink - - }
+	CRIT_2 	 	{ CL.ERSmallLaser - - } 
+	CRIT_3-8	{ CL.GaussRifle - - }
+	CRIT_9		{ AMMO_CL.GaussRifle 8 - - }
+	CRIT_10		{ AMMO_CL.GaussRifle 8 - - }
+	CRIT_11		{ EndoSteel - - }
+Center_Torso
+  Armor            { 15 }
+  Internals        { 10 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11			{ HeatSink - - }
+	CRIT_12			{ EndoSteel - - }
+Rear_Left_Leg
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { HeatSink - - }
+Rear_Right_Leg
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { HeatSink - - }
+	CRIT_6			{ EndoSteel - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+	CRIT_4			{ HeatSink - - }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

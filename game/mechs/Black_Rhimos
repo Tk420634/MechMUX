@@ -1,0 +1,75 @@
+Name             { Black Rhimos }
+Reference        {Black_Rhimos }
+Type             { Mech }
+Move_Type        { Quad }
+Tons             { 45 }
+Comment          { Saved by: Fenin#2532 at Fri May 1st, while wishing he was still asleep 2020 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 756 }
+Heat_Sinks       { 12 }
+Max_Speed        { 33.00 }
+Front_Left_Leg
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Front_Right_Leg
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Left_Torso
+ Armor             { 16 }
+  Internals        { 11 }
+  Rear             { 6 }
+	CRIT_1-2		{ IS.LargeLaser - - }
+	CRIT_3			{ HeatSink - - }
+	CRIT_4			{ HeatSink - - }
+	CRIT_5			{ HeatSink - - }
+	CRIT_6			{ HeatSink - - }
+Right_Torso
+ Armor             { 16 }
+  Internals        { 11 }
+  Rear             { 6 }
+	CRIT_1			{ HeatSink - - }
+	CRIT_2			{ HeatSink - - }
+	CRIT_3			{ HeatSink - - }
+	CRIT_4			{ HeatSink - - }
+	CRIT_5			{ HeatSink - - }
+Center_Torso
+  Armor            { 21 }
+  Internals        { 14 }
+  Rear             { 7 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+	CRIT_11			{ ZD.ShockCannon - - }
+Rear_Left_Leg
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Rear_Right_Leg
+  Armor            { 22 }
+  Internals        { 11 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+	CRIT_4 		{ ZD.Horn-Attack - - }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }
