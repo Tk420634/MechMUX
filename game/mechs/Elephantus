@@ -1,0 +1,73 @@
+Name             { Elephantus }
+Reference        { Elephantus }
+Type             { Mech }
+Move_Type        { Quad }
+Tons             { 20 }
+Comment          { Saved by: Fenin#2532 at Tue April 21 23:17:30 2020 }
+Computer         { 4 }
+Radio            { 4 }
+Heat_Sinks       { 12 }
+Mech_BV          { 348 }
+Max_Speed        { 54.00 }
+Front_Left_Leg
+  Armor            { 6 }
+  Internals        { 3 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5			  { HeatSink - - }
+Front_Right_Leg
+  Armor            { 6 }
+  Internals        { 3 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5			  { HeatSink - - }
+Left_Torso
+  Armor            { 6 }
+  Internals        { 4 }
+  Rear             { 2 }
+	CRIT_1 			{ CL.ERSmallLaser - - }
+    CRIT_2-3		  { HeatSink - - }
+Right_Torso
+ Armor             { 6 }
+  Internals        { 4 }
+  Rear             { 2 }
+	CRIT_1 			{ CL.ERSmallLaser - - }
+    CRIT_2-3		  { HeatSink - - }
+Center_Torso
+  Armor            { 7 }
+  Internals        { 5 }
+  Rear             { 2 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11		  { CL.LRM-5 - - }
+    CRIT_12		  { HeatSink - - }
+Rear_Left_Leg
+  Armor            { 5 }
+  Internals        { 3 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { HeatSink - - }
+Rear_Right_Leg
+  Armor            { 5 }
+  Internals        { 3 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5-6		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+	CRIT_4		  { Ammo_CL.LRM-5 24 -}
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }

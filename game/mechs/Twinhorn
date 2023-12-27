@@ -1,0 +1,71 @@
+Name             { Twinhorn }
+Reference        { Twinhorn }
+Type             { Mech }
+Move_Type        { Quad }
+Tons             { 30 }
+Comment          { Saved by: Fenin#2532 at Sat April 25th, while being attacked by a toddler 2020 }
+Computer         { 4 }
+Radio            { 4 }
+Mech_BV          { 498 }
+Max_Speed        { 53.00 }
+Front_Left_Leg
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+Front_Right_Leg
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5			  { HeatSink - - }
+Left_Torso
+ Armor             { 10 }
+  Internals        { 7 }
+  Rear             { 4 }
+	CRIT_1-2		{ HeatSink - - }
+	CRIT_3 	 	{ CL.Flamer - RearMount } 
+Right_Torso
+ Armor             { 10 }
+  Internals        { 7 }
+  Rear             { 4 }
+    CRIT_1		{ HeatSink - - }
+	CRIT_2 	 	{ CL.Flamer - RearMount } 
+Center_Torso
+  Armor            { 15 }
+  Internals        { 10 }
+  Rear             { 5 }
+    CRIT_1-3		  { Engine - - 3 }
+    CRIT_4-7		  { Gyro - - 3 }
+    CRIT_8-10		  { Engine - - 3 }
+    CRIT_11			{ HeatSink - - }
+	CRIT_12			{ ZD.ShockCannon - - }
+Rear_Left_Leg
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { HeatSink - - }
+Rear_Right_Leg
+  Armor            { 14 }
+  Internals        { 7 }
+    CRIT_1		  { ShoulderOrHip - - 3 }
+    CRIT_2		  { UpperActuator - - 3 }
+    CRIT_3		  { LowerActuator - - 3 }
+    CRIT_4		  { HandOrFootActuator - - 3 }
+    CRIT_5		  { HeatSink - - }
+Head
+  Armor            { 9 }
+  Internals        { 3 }
+    CRIT_1		  { LifeSupport - - 3 }
+    CRIT_2		  { Sensors - - 3 }
+    CRIT_3		  { Cockpit - - 3 }
+	CRIT_4 		  { ZD.Tusks-Attack - - }
+    CRIT_5		  { Sensors - - 3 }
+    CRIT_6		  { LifeSupport - - 3 }
