@@ -191,3 +191,5 @@
 #define VRT_IS_IFLAM        10  /* IS.InfantryFlamer */
 #define VRT_IS_ISRM         20  /* IS.InfantrySRM */
 #define VRT_IS_ILRM         20  /* IS.InfantryLRM */
+#define VRT_ZD_ML			15	/* Zoid Melee */
+#define VRT_ZD_CPG			150	/* Zoid Charge Particle Gun */	
